@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeCole</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Estoque!!</h1>
+
+<div id="form">
+        <div id="container-inputs">
+            <label>Nome</label>
+            <input type="text" id="input-nome">
+        </div>
+        <div id="container-inputs">
+            <label>Tipo</label>
+            <input type="text" id="input-tipo">
+        </div>
+        <div id="container-inputs">
+            <label>Valor</label>
+            <input type="number" id="input-valor">
+        </div>
+        <div id="container-inputs">
+            <label>Shiny</label>
+            <input type="text" id="input-shiny">
+        </div>
+        <div id="container-inputs">
+            <label>Debilidade</label>
+            <input type="text" id="input-debilidade">
+        </div>
+        <div id="container-inputs">
+            <label>ID</label>
+            <input type="number" id="input-id">
+        </div>
+
+
+        <div id="div-botoes">
+         <button onclick="AdicionarProduto()" id="botao">Adicionar Pokemon ➕</button>
+         <button onclick="removerProduto()"id="botao">Remover Pokemon ➖</button>
+         <button onclick="procurarProduto()"id="botao">Procurar um Pokemon 🔎</button>
+         <button onclick="atualizarProduto()"id="botao">Atualizar dados do Pokemon 💾</button>
+         <button onclick="testar()"id="botao">Testar</button>
+     </div>
+    </div>   
+
+    <div id="lista">
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
